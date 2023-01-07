@@ -48,4 +48,9 @@ nav img{
     background: #00004d;
     display: block;
     margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul list-style:hover::after{
+    width: 100%;
 }
